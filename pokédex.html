@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet"> 
+    <script src="pokédex.js" defer></script>
+</head>
+<body class="pokédex">
+    <h1>Pokédex</h1>
+    <h2 id="error"></h2>
+    <div>
+        <form action="" method="post">
+            <label for="pokesearch">Recherchez un Pokémon :</label>
+            <input type="search" name="pokesearch" id="pokesearch" autocomplete="off" placeholder="par nom ou numéro" value="">
+        </form>
+    </div>
+    <div class="btn_div">
+        <input type="button" value="1st generation" id="btn1st">
+        <input type="button" value="2nd generation" id="btn2nd">
+        <input type="button" value="3rd generation" id="btn3rd">
+        <input type="button" value="4th generation" id="btn4th">
+        <input type="button" value="5th generation" id="btn5th">
+        <input type="button" value="6th generation" id="btn6th">
+        <input type="button" value="7th generation" id="btn7th">
+        <input type="button" value="8th generation" id="btn8th">
+    </div>
+    <div class="search_pokemon"></div>
+
+    <div id="poke_container" class="poke-container">
+
+    </div>
+</body>
+</html>
